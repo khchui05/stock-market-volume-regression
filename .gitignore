@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Data files are downloaded by modules/get_data.py, not committed
+data/*/*.csv
+data/*/*.CSV
